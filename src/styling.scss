@@ -25,6 +25,7 @@ $marker-definition: url(#markerArrow);
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20);
   }
+  position: absolute;
 }
 
 .vue-workflow-chart-transition-label {
@@ -43,15 +44,18 @@ $marker-definition: url(#markerArrow);
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
   }
+  position: absolute;
 }
 
 .vue-workflow-chart-transition-arrow {
   fill: $arrow-color;
   stroke-width: $arrow-stroke-width;
+  position: absolute;
 }
 .vue-workflow-chart-transition-path {
   fill: none;
   stroke: $arrow-color;
   stroke-width: 3;
+  position: absolute;
 }
 
