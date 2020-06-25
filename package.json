@@ -31,6 +31,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "dagre": "^0.8.4",
+    "vue": "^2.6.11",
     "yarn": "^1.22.4"
   },
   "peerDependencies": {
@@ -59,7 +60,6 @@
     "sass-loader": "^8.0.0",
     "standard": "^14.3.4",
     "vue-cli-plugin-vuetify": "~2.0.5",
-    "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.3.0"
+    "vue-template-compiler": "^2.6.11"
   }
 }
